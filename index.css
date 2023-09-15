@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body {
+    margin-top: 0;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #122233;
+}
+
+h2{
+    font-weight: 500;
+}
+
+#caststatus{
+    font-size: 25px;
+}
+
+button {
+    font-size: 25px;
+    width: 30vh;
+    margin: 15px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.connect-btn {
+    background-color: #0c1d1d;
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+
+.call-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    padding: 25px;
+}
+
+.audio-container, .video-container{
+    width: 50%;
+}
+
+.audio{
+    margin-top: 60px;
+}
+
+
+#remoteVideo {
+    width: 80%;
+    border: 2px solid #e0ffff;
+    border-radius: 4px;
+}
+#localVideo {
+    width: 80%;
+    border: 2px solid #e0ffff;
+    border-radius: 4px;
+}
+
+.hangup-btn{
+    margin-top: 20px;
+}
+
+
+.modal {
+    padding: 5rem;
+    background-color: whitesmoke;
+    border-radius: 2rem;
+    width: 40rem;
+    height: 20rem;
+}
+
+.inner-modal {
+    text-align: center;
+}
+
+.modal label {
+    font-size: 1.5rem;
+}
+.modal input {
+    margin: 1rem 7rem 3rem;
+    display: block;
+    padding: 1rem;
+    border-radius: 3rem;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.19);
+    border: none;
+    width:50%;
+}
